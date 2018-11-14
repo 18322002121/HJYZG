@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cn8-lW-O7i" customClass="ShoppingCartHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="361" height="46"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unJ-T9-udq">
+                    <rect key="frame" x="10" y="0.0" width="341" height="46"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCY-a4-AJB">
+                            <rect key="frame" x="47" y="0.0" width="294" height="46"/>
+                            <state key="normal" title="爱迪达克旗舰店">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="shopClick:" destination="-1" eventType="touchUpInside" id="VaS-z7-aj3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5GS-M9-hSS">
+                            <rect key="frame" x="2" y="3" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="nKI-jf-N68"/>
+                                <constraint firstAttribute="width" constant="40" id="xLe-m8-fnE"/>
+                            </constraints>
+                            <state key="normal" image="box_choose"/>
+                            <connections>
+                                <action selector="shopImageClick:" destination="-1" eventType="touchUpInside" id="lVC-1O-DKA"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="5GS-M9-hSS" firstAttribute="leading" secondItem="unJ-T9-udq" secondAttribute="leading" constant="2" id="0H9-5p-bzh"/>
+                        <constraint firstAttribute="bottom" secondItem="VCY-a4-AJB" secondAttribute="bottom" id="1T3-DM-7so"/>
+                        <constraint firstItem="5GS-M9-hSS" firstAttribute="centerY" secondItem="unJ-T9-udq" secondAttribute="centerY" id="PIm-eV-3bP"/>
+                        <constraint firstItem="VCY-a4-AJB" firstAttribute="leading" secondItem="5GS-M9-hSS" secondAttribute="trailing" constant="5" id="QUO-is-1LK"/>
+                        <constraint firstAttribute="trailing" secondItem="VCY-a4-AJB" secondAttribute="trailing" id="dYq-ON-T3h"/>
+                        <constraint firstItem="VCY-a4-AJB" firstAttribute="top" secondItem="unJ-T9-udq" secondAttribute="top" id="moi-e5-6gI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="unJ-T9-udq" secondAttribute="bottom" id="20L-zQ-tTP"/>
+                <constraint firstItem="unJ-T9-udq" firstAttribute="top" secondItem="cn8-lW-O7i" secondAttribute="top" id="4yM-sn-eaA"/>
+                <constraint firstAttribute="trailing" secondItem="unJ-T9-udq" secondAttribute="trailing" constant="10" id="5ae-eg-buE"/>
+                <constraint firstItem="unJ-T9-udq" firstAttribute="leading" secondItem="cn8-lW-O7i" secondAttribute="leading" constant="10" id="Crt-yc-Frh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="15.5" y="-113"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="box_choose" width="29" height="29"/>
+    </resources>
+</document>

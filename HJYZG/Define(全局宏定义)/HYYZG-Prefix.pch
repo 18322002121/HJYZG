@@ -1,0 +1,53 @@
+//
+//  HYYZG-Prefix.pch
+//  HJYZG
+//
+//  Created by HCY on 2018/8/7.
+//  Copyright © 2018年 HCY. All rights reserved.
+//
+
+#ifndef HYYZG_Prefix_pch
+#define HYYZG_Prefix_pch
+
+#import "GlobalMacro.h"
+#import "PublicButton.h"
+#import "PublicLabel.h"
+#import "PublicTextfield.h"
+#import "JHRingChart.h"
+#import "HCYRequestHandler.h"
+#import "HCYRequestManager.h"
+#import "HCYRequestUrl.h"
+#import "UIButton+Extention.h"
+#import "ZJScrollPageView.h"
+#import "DHGuidePageHUD.h"
+#import "PublicEncryptionAndDecryption.h"
+#import "YQPanoramaView.h"
+#import "CustemInfoHeader.h"
+#import "LrdSuperMenu.h"
+#import "XQVideoView.h"
+#import "VideoMaskView.h"
+#import "ZWMSegmentController.h"
+
+#import <AFNetworking.h>
+#import <SDCycleScrollView.h>
+#import <Masonry.h>
+#import <BRPickerView.h>
+#import <PYSearch.h>
+#import <YMCitySelect.h>
+#import <MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <YYModel.h>
+#import <JPUSHService.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <JXCategoryView.h>
+#import <YJProgressHUD.h>
+
+
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+#import <BMKLocationkit/BMKLocationComponent.h>
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>//引入检索功能所有的头文件
+#import <IQKeyboardManager.h>
+
+#endif /* HYYZG_Prefix_pch */
+
